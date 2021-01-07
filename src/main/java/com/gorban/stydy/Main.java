@@ -1,8 +1,7 @@
 package com.gorban.stydy;
 
-import com.gorban.study.lambda.exceptions.EmptyArrayException;
-import com.gorban.study.lambda.exceptions.LambdaExceptionDemo;
-import com.gorban.study.lambda.passingAsArguments.LambdasAsArgumentsDemo;
+import com.gorban.study.lambda.methodReferenceToInstanceMethods.InstanceMethWithObjectRefDemo;
+import com.gorban.study.lambda.methodReferenceToStaticMethods.MethodDemoRef;
 
 public class Main {
     public static void main(String args[]){
@@ -28,7 +27,14 @@ public class Main {
             e.printStackTrace();
         }*/
 
+    // Lambda Expressions and Variable Capture
+//        new VarCapture().test();
 
+//    Method References to static methods
+//        new MethodDemoRef().test();
+
+        // Method reference to instance methods
+        new InstanceMethWithObjectRefDemo().test();
 
     }
 }
