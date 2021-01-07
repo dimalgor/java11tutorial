@@ -1,4 +1,6 @@
-package com.gorban.study.blocklambda;
+package com.gorban.study.lambda.passingAsArguments;
+
+import com.gorban.study.lambda.block.StringFunc;
 
 public class LambdasAsArgumentsDemo {
     // This method has a functional interface as the type of

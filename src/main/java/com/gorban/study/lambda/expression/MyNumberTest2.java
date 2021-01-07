@@ -1,4 +1,4 @@
-package com.gorban.stydy.expressionlambda;
+package com.gorban.study.lambda.expression;
 
 public class MyNumberTest2 {
     public void test(){

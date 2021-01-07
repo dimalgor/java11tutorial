@@ -1,4 +1,4 @@
-package com.gorban.study.blocklambda;
+package com.gorban.study.lambda.genericFunctionalInterface;
 
 public class GenericFunctionalInterfaceDemo {
 
