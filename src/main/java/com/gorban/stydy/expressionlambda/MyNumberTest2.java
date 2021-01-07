@@ -1,4 +1,4 @@
-package lambda.stydy.gorban.com;
+package com.gorban.stydy.expressionlambda;
 
 public class MyNumberTest2 {
     public void test(){
