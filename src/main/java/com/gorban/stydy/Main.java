@@ -2,6 +2,7 @@ package com.gorban.stydy;
 
 import com.gorban.study.lambda.methodReferenceToInstanceMethods.InstanceMethWithObjectRefDemo;
 import com.gorban.study.lambda.methodReferenceToStaticMethods.MethodDemoRef;
+import com.gorban.study.lambda.methodReferenceWithGenerics.GenericMethodRefDemo;
 
 public class Main {
     public static void main(String args[]){
@@ -34,7 +35,12 @@ public class Main {
 //        new MethodDemoRef().test();
 
         // Method reference to instance methods
-        new InstanceMethWithObjectRefDemo().test();
+//        new InstanceMethWithObjectRefDemo().test();
+
+        // Method reference with generic
+        new GenericMethodRefDemo().test();
+
+
 
     }
 }
