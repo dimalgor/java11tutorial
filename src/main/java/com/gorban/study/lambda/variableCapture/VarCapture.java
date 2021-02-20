@@ -7,13 +7,12 @@ public class VarCapture {
 
         MyFunc lambda = (n) -> {
             // This use of num is OK. It does not modify num.
-            int v = num + n;
 
             // However, the following is illegal because it attempts
             // to modify the value of num.
 //             num++;
 
-            return v;
+            return num + n;
         };
 
         // The following line would also cause an error, because

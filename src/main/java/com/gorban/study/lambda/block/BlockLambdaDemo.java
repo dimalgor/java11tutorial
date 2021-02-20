@@ -15,6 +15,10 @@ public class BlockLambdaDemo {
 
         System.out.println("The factorial of 3 is: " + numericFunc.func(3));
         System.out.println("The factorial of 5 is: " + numericFunc.func(5));
+
+
+
+
     }
 
 }

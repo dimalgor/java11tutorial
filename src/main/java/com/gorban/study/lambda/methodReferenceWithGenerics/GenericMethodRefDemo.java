@@ -18,6 +18,6 @@ public class GenericMethodRefDemo {
         System.out.println("vals contains " + count + " 4s");
 
         count = myOp(MyArrayOps::<String>contMatching, strs, "Two");
-        System.out.println("strs contains " + count + "Twos");
+        System.out.println("strs contains " + count + " Twos");
     }
 }

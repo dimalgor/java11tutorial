@@ -2,7 +2,7 @@ package com.gorban.study.lambda.methodReferenceToInstanceMethods;
 
 // A class that stores the temperature high for a day.
 public class HighTemp {
-    private int hTemp;
+    private final int hTemp;
 
     HighTemp(int hTemp){
         this.hTemp = hTemp;

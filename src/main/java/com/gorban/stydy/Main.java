@@ -1,11 +1,9 @@
 package com.gorban.stydy;
 
-import com.gorban.study.lambda.methodReferenceToInstanceMethods.InstanceMethWithObjectRefDemo;
-import com.gorban.study.lambda.methodReferenceToStaticMethods.MethodDemoRef;
-import com.gorban.study.lambda.methodReferenceWithGenerics.GenericMethodRefDemo;
+import com.gorban.study.lambda.constructorReferencesGeneric.ConstructorRefGenericDemo;
 
 public class Main {
-    public static void main(String args[]){
+    public static void main(String[] args){
         // expression lambda
 //        new MyNumberTest().testMyNumber();
 //        new MyNumberTest().testLambda2();
@@ -38,8 +36,14 @@ public class Main {
 //        new InstanceMethWithObjectRefDemo().test();
 
         // Method reference with generic
-        new GenericMethodRefDemo().test();
+//        new GenericMethodRefDemo().test();
+//        new UseMethodRef().test();
 
+        // Constructor Reference
+//        new ConstructorRefDemo().test();
+
+        // Constructor Reference Generic
+        new ConstructorRefGenericDemo().test();
 
 
     }
