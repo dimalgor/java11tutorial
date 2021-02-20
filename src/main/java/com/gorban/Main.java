@@ -1,6 +1,7 @@
-package com.gorban.stydy;
+package com.gorban;
 
 import com.gorban.study.lambda.constructorReferencesGeneric.ConstructorRefGenericDemo;
+import com.gorban.study.streamapi.SimpleStreamForDebug;
 
 public class Main {
     public static void main(String[] args){
@@ -43,8 +44,10 @@ public class Main {
 //        new ConstructorRefDemo().test();
 
         // Constructor Reference Generic
-        new ConstructorRefGenericDemo().test();
+//        new ConstructorRefGenericDemo().test();
 
+        // Streams API
+        SimpleStreamForDebug.checkStreamOfString();
 
     }
 }
